@@ -35,42 +35,53 @@
             // 
             // btnVentaCredito
             // 
-            btnVentaCredito.Location = new Point(180, 153);
+            btnVentaCredito.BackColor = SystemColors.ControlText;
+            btnVentaCredito.ForeColor = SystemColors.ButtonHighlight;
+            btnVentaCredito.Location = new Point(145, 79);
+            btnVentaCredito.Margin = new Padding(3, 2, 3, 2);
             btnVentaCredito.Name = "btnVentaCredito";
-            btnVentaCredito.Size = new Size(149, 77);
+            btnVentaCredito.Size = new Size(107, 58);
             btnVentaCredito.TabIndex = 0;
             btnVentaCredito.Text = "VentaCrédito";
-            btnVentaCredito.UseVisualStyleBackColor = true;
+            btnVentaCredito.UseVisualStyleBackColor = false;
             btnVentaCredito.Click += btnVentaCredito_Click;
             // 
             // btnVentaContado
             // 
-            btnVentaContado.Location = new Point(458, 152);
+            btnVentaContado.BackColor = SystemColors.ActiveCaptionText;
+            btnVentaContado.ForeColor = SystemColors.ButtonHighlight;
+            btnVentaContado.Location = new Point(417, 79);
+            btnVentaContado.Margin = new Padding(3, 2, 3, 2);
             btnVentaContado.Name = "btnVentaContado";
-            btnVentaContado.Size = new Size(160, 78);
+            btnVentaContado.Size = new Size(106, 58);
             btnVentaContado.TabIndex = 1;
             btnVentaContado.Text = "VentaContado";
-            btnVentaContado.UseVisualStyleBackColor = true;
+            btnVentaContado.UseVisualStyleBackColor = false;
             btnVentaContado.Click += btnVentaContado_Click;
             // 
             // btnVentaCortesia
             // 
-            btnVentaCortesia.Location = new Point(309, 294);
+            btnVentaCortesia.BackColor = SystemColors.ControlText;
+            btnVentaCortesia.ForeColor = SystemColors.ButtonHighlight;
+            btnVentaCortesia.Location = new Point(283, 263);
+            btnVentaCortesia.Margin = new Padding(3, 2, 3, 2);
             btnVentaCortesia.Name = "btnVentaCortesia";
-            btnVentaCortesia.Size = new Size(149, 77);
+            btnVentaCortesia.Size = new Size(107, 58);
             btnVentaCortesia.TabIndex = 2;
             btnVentaCortesia.Text = "VentaCortesía";
-            btnVentaCortesia.UseVisualStyleBackColor = true;
+            btnVentaCortesia.UseVisualStyleBackColor = false;
             btnVentaCortesia.Click += btnVentaCortesia_Click;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            BackgroundImage = Properties.Resources.Moo_Deng;
+            ClientSize = new Size(700, 396);
             Controls.Add(btnVentaCortesia);
             Controls.Add(btnVentaContado);
             Controls.Add(btnVentaCredito);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
