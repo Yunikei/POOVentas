@@ -1,6 +1,6 @@
 ﻿namespace POOVentas
 {
-    //No esta heredando, solo implementando la interfaz
+    //interfaz
     internal class FormaPagoEfectivo : IFormaPago
     {
         public void Cobrar(decimal total)

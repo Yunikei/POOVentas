@@ -12,10 +12,10 @@
 
         }
 
-        //Lista con constructor, los Conceptos son los Productos
+        //Lista con constructor, Conceptos
 
 
-        //[] indica para iniciar la lista
+        //Iniciar la lista
         public List<ConceptodeVenta> Conceptos { get; set; } = [];
 
         public virtual decimal CalcularTotal()

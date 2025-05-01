@@ -9,7 +9,7 @@
         public decimal ValorUnitario { get; set; }
         public decimal Importe
         {
-            //se pone get, porque lo anda leyendo 
+             
             get
             {
                 return CalcularImporte();
